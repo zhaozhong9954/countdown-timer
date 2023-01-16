@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("https://images.unsplash.com/photo-1612201598945-f66a763965bd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    min-height: 100vh;
+    font-family: "Poppins",sans-serif;
+    margin: 0;
+    
+}
+
+hi{
+    font-size: 4rem;
+    font-weight: normal;
+    margin-top: 2rem;
+}
+
+.big-text{
+    font-size: 6rem;
+    font-weight: bold;
+    line-height: 1;
+    margin: 01rem 2rem;
+}
+
+.countdown-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+} 
+
+.element{
+    text-align: center;
+}
+.element span{
+    font-size: 1.5rem;
+}
